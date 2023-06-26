@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #444344;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    max-width: 60rem;
+    width: 100%;
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+form {
+    width: 50%;
+}
+
+#name,
+#phone {
+    height: 1.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+}
+
+button {
+    height: 2rem;
+    width: 100%;
+    border: .1rem solid black;
+    border-radius: .4rem;
+    background-color: #ccc;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(14, 14, 15);
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    width: 50%;
+    text-align: center;
+    border: .1rem solid black;
+}
+
+th {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: .1rem solid black;
+    padding: 1rem;
+}
